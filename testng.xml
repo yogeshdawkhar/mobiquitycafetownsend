@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mobiquity Web TestSuite">
+
+	<test name="Mobiquity Web test" preserve-order="true">
+		<classes>
+			<class name="com.mobiquity.testcases.LogInTestCase" />
+			<class name="com.mobiquity.testcases.CreateUserTestCase" />
+			<class name="com.mobiquity.testcases.DeleteUserTestCase" />
+			<class name="com.mobiquity.testcases.EditUserTestCase" />
+			<class name="com.mobiquity.testcases.ViewUserTestCase" />
+			<class name="com.mobiquity.testcases.LogOutTestCase" />
+		</classes>
+	</test>
+</suite>
